@@ -1,7 +1,12 @@
 # Auth-Service
 認証周りを行うサービス
 
-## start command
+## init start command
+```
+cd Auth-Service 
+docker-compose up --build
+```
+## restart command
 ```
 cd Auth-Service 
 docker-compose up -d
