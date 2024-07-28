@@ -1,0 +1,6 @@
+@Amity.Services.AuthAPI_HostAddress = http://localhost:5049
+
+GET {{Amity.Services.AuthAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
