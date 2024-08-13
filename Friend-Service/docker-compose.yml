@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    build: flask
+    ports:
+      - "5001:5000"
+    container_name: app
+    volumes:
+      - ./flask/app:/usr/src/app
+    command: gunicorn --bind 0.0.0.0:5000 app:appc
