@@ -7,4 +7,4 @@ services:
     container_name: app
     volumes:
       - ./flask/app:/usr/src/app
-    command: gunicorn --bind 0.0.0.0:5000 app:appc
+    command: gunicorn --bind 0.0.0.0:5000 app:app
